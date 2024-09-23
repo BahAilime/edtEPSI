@@ -59,12 +59,10 @@ async function fetchHTML() {
         });
 
         const domDataPage = new JSDOM(dataPageResponse.data);
-        require('fs').writeFileSync('data.html', dataPageResponse.data);
         
         const documentDataPage = domDataPage.window.document;
         
         const allCase = documentDataPage.querySelectorAll('.Case');
-        require('fs').writeFileSync('cases.json', JSON.stringify([...allCase]));
         let dates = documentDataPage.querySelectorAll('.TCJour');
         dates = Array.from(dates).map(event => event.textContent).slice(5, 10);
 
