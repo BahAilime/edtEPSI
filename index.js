@@ -10,11 +10,20 @@ const args = Yargs(process.argv.slice(2)).argv;
 
 const date = args.date ? parseDate(args.date) : new Date();
 
+let credentials =  {
+    username: process.env.USERNAME_EPSI,
+    password: process.env.PASSWORD_EPSI
+}
+
+if (args.username && args.password) {
+    credentials = {
+        username: args.username,
+        password: args.password
+    }
+}
+
 async function main() {
-    const html = await fetchHTML(date, {
-        username: process.env.USERNAME_EPSI,
-        password: process.env.PASSWORD_EPSI
-    });
+    const html = await fetchHTML(date, credentials);
     console.log(await parseHTML(html));
 }
 
