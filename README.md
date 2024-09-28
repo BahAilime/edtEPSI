@@ -1,45 +1,56 @@
-# EDT EPSI
+# EPSI Schedule Extractor
 
-A project to manage and timetables.
+This project allows you to extract your schedule for a given week from the EPSI school website. The website might not be the best, but this tool helps you grab the schedule data you need without hassle.
 
-## Getting Started
+## Features
 
-Follow the instructions below to set up and run the project on your local machine.
+- Extracts your weekly schedule from the EPSI website.
+- Credentials can be provided either through the `.env` file or via command-line arguments.
+- Specify the week by providing a date, and the tool will retrieve the events for that week.
 
-### Prerequisites
+## Installation
 
-Make sure you have the following installed:
+1. Clone the repository:
+   ```bash
+   git clone https://github.com/bahailime/edtepsi.git
+   cd edtepsi
+   ```
 
-- **Node.js**
-- **npm**
+2. Install dependencies:
+   ```bash
+   npm install
+   ```
 
-### Installation
+3. Set up your environment:
+   - Create a `.env` file in the root directory and add your EPSI credentials:
+     ```bash
+     USERNAME=your_epsiname.familyname
+     PASSWORD=your_password
+     ```
+   - Or pass the credentials via command-line arguments when running the script (see below).
 
-1. **Clone the repository:**
+## Usage
 
-    ```bash
-    git clone <repository-url>
-    ```
+You can run the script using Node.js with optional command-line arguments.
 
-2. **Navigate into the project directory:**
+### Arguments (all optional):
 
-    ```bash
-    cd <repository-folder>
-    ```
+- `--date=[DD/MM/YYYY]` : Day in the week you want to get the schedule for. If not provided, the current week is used.
+- `--username` : Your EPSI username (e.g., name.family).
+- `--password` : Your EPSI password.
 
-3. **Configure environment variables:**
+### Example:
 
-   - Rename the `.env.example` file to `.env`.
-   - Open `.env` and provide your credentials or other necessary configuration.
+```bash
+node index.js --date=25/09/2024 --username=john.doe --password=your_password
+```
 
-4. **Install project dependencies:**
+If you set your credentials in the `.env` file, the command would look like this:
 
-    ```bash
-    npm ci
-    ```
+```bash
+node index.js --date=25/09/2024
+```
 
-5. **Run the project:**
+## License
 
-    ```bash
-    node .
-    ```
+This project is licensed under the MIT License.
