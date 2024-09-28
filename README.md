@@ -1,6 +1,6 @@
 # EPSI Schedule Extractor
 
-This project allows you to extract your schedule for a given week from the EPSI school website. The website might not be the best, but this tool helps you grab the schedule data you need without hassle.
+This project allows you to extract your schedule for a given week from the EPSI school website.
 
 ## Features
 
@@ -24,8 +24,8 @@ This project allows you to extract your schedule for a given week from the EPSI 
 3. Set up your environment:
    - Create a `.env` file in the root directory and add your EPSI credentials:
      ```bash
-     USERNAME=your_epsiname.familyname
-     PASSWORD=your_password
+     USERNAME_EPSI=your_epsiname.familyname
+     PASSWORD_EPSI=your_password
      ```
    - Or pass the credentials via command-line arguments when running the script (see below).
 

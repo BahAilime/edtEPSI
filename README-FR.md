@@ -1,6 +1,6 @@
 # Extracteur d'Emploi du Temps EPSI
 
-Ce projet permet d'extraire votre emploi du temps hebdomadaire depuis le site de l'école EPSI. Même si le site n'est pas parfait, cet outil vous aide à récupérer les données de votre emploi du temps sans tracas.
+Ce projet permet d'extraire votre emploi du temps hebdomadaire depuis le site de l'école EPSI.
 
 ## Fonctionnalités
 
@@ -24,8 +24,8 @@ Ce projet permet d'extraire votre emploi du temps hebdomadaire depuis le site de
 3. Configurez votre environnement :
    - Créez un fichier `.env` à la racine du projet et ajoutez vos identifiants EPSI :
      ```bash
-     USERNAME=votre_nom.prenom
-     PASSWORD=votre_mot_de_passe
+     USERNAME_EPSI=votre_nom.prenom
+     PASSWORD_EPSI=votre_mot_de_passe
      ```
    - Ou bien, fournissez les identifiants via des arguments en ligne de commande lors de l'exécution du script (voir ci-dessous).
 
