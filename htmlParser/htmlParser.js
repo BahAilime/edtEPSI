@@ -81,13 +81,13 @@ export async function parseHTML(html) {
             const groupHTML = event.querySelector('td.TCProf')
             let group = ["", ""];
             if (groupHTML) {
-                let wordsToRemove = ["24/25", "EPSI", "NTE", "B3", "DEVIA", "BACHELOR 3", "ALT"];
+                let wordsToRemove = ["24/25", "EPSI", "NTE", "DEVIA", "BACHELOR", "3", "ALT"];
                 let span = groupHTML.querySelector('span');
                 if (span) span.remove();
                 let text = groupHTML.innerHTML;
                 group = text.split('<br>').map(text => text.trim());
 
-                group[0] = capitalizeName(group[0])
+                group[0] = capitalizeName(group[0].split(' ').reverse().join(' '));
 
                 group[1] = group[1].split(' ')
                     .filter(word => !wordsToRemove.includes(word))
