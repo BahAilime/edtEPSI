@@ -1,5 +1,7 @@
 # EPSI Schedule Extractor
 
+[README IN FRENCH HERE](https://github.com/BahAilime/edtEPSI/blob/main/README-FR.md)
+
 This project allows you to extract your schedule for a given week from the EPSI school website.
 
 ## Features
@@ -36,7 +38,7 @@ You can run the script using Node.js with optional command-line arguments.
 ### Arguments (all optional):
 
 - `--date=[DD/MM/YYYY]` : Day in the week you want to get the schedule for. If not provided, the current week is used.
-- `--username` : Your EPSI username (e.g., name.family).
+- `--username` : Your EPSI username (e.g., firstNamename.familyName).
 - `--password` : Your EPSI password.
 
 ### Example:
