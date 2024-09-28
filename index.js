@@ -1,6 +1,6 @@
-import { parseHTML } from './htmlParser.js';
-import { fetchHTML } from './api.js';
-import { parseDate } from './utils.js';
+import { parseHTML } from './htmlParser/htmlParser.js';
+import { fetchHTML } from './api/api.js';
+import { parseDate } from './utils/utils.js';
 import Yargs from "yargs";
 import dotenv from 'dotenv';
 
