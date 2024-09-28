@@ -6,11 +6,19 @@ import { wrapper } from 'axios-cookiejar-support';
 const jar = new CookieJar();
 const client = wrapper(axios.create({ jar }));
 
-import dotenv from 'dotenv';
+export async function fetchHTML(date, credentials) {
+    if (!credentials || credentials.username === undefined || credentials.password === undefined) {
+        throw new Error('Missing credentials');
+    }
 
-dotenv.config();
+    if (!date || !Object.prototype.toString.call(date) === '[object Date]') {
+        throw new Error('Missing date');
+    }
 
-export async function fetchHTML() {
+    if (date.toString() === 'Invalid Date') {
+        throw new Error('Invalid date');
+    }
+
     try {
         const loginPageResponse = await client.get('https://cas-p.wigorservices.net/cas/login', {
             headers: {
@@ -28,8 +36,8 @@ export async function fetchHTML() {
         const lt = ltField ? ltField.value : null;
 
         const formData = {
-            username: process.env.USERNAME_EPSI,
-            password: process.env.PASSWORD_EPSI,
+            username: credentials.username,
+            password: credentials.password,
             _eventId: 'submit'
         };
 
@@ -47,7 +55,8 @@ export async function fetchHTML() {
             }
         );
 
-        const dataPageResponse = await client.get(`https://ws-edt-cd.wigorservices.net/WebPsDyn.aspx?action=posEDTLMS&serverID=C&Tel=${process.env.USERNAME_EPSI}&date=09%2F30%2F2024`, {
+        const urlDate = encodeURIComponent((date.getMonth() + 1) + "/" + date.getDate() + "/" + date.getFullYear());
+        const dataPageResponse = await client.get(`https://ws-edt-cd.wigorservices.net/WebPsDyn.aspx?action=posEDTLMS&serverID=C&Tel=${process.env.USERNAME_EPSI}&date=${urlDate}`, {
             headers: {
                 'User-Agent': 'Mozilla/5.0',
             }
