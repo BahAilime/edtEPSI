@@ -67,12 +67,6 @@ export async function parseHTML(html) {
     try {
         const dataPageDocument = new JSDOM(html).window.document;
 
-        // if (html.search("Pas de cours cette semaine")) {
-        //     return {
-        //         error: "Pas de cours cette semaine"
-        //     }
-        // }
-
         let caseElements = dataPageDocument.querySelectorAll('.Case');
         caseElements = Array.from(caseElements).slice(0, -1);
         const dateElements = dataPageDocument.querySelectorAll('.TCJour');
