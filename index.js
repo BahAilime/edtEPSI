@@ -3,6 +3,7 @@ import { fetchHTML } from './api/api.js';
 import { parseDate } from './utils/utils.js';
 import Yargs from "yargs";
 import dotenv from 'dotenv';
+import * as fs from 'fs';
 
 dotenv.config();
 
@@ -24,8 +25,18 @@ if (args.username && args.password) {
 
 async function main() {
     const html = await fetchHTML(date, credentials);
-    const parsedHtml =await parseHTML(html)
-    console.log(JSON.stringify(parsedHtml, null, 2));
+    const parsedObject =await parseHTML(html)
+    const jsonString = JSON.stringify(parsedObject, null, 2);
+
+    if (args.output) {
+        fs.writeFile(args.output, jsonString, err => {
+            if (err) {
+                console.error(err);
+            }
+        });
+    }
+
+    console.log(jsonString);
 }
 
 main();

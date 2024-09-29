@@ -38,6 +38,7 @@ You can run the script using Node.js with optional command-line arguments.
 ### Arguments (all optional):
 
 - `--date=[DD/MM/YYYY]` : Day in the week you want to get the schedule for. If not provided, the current week is used.
+- `--output` : The path to where you want to save the JSON.
 - `--username` : Your EPSI username (e.g., firstNamename.familyName).
 - `--password` : Your EPSI password.
 
