@@ -1,4 +1,6 @@
 {
+  "scripts": {
+    "ics": "node ics/ics-generator.js"},
   "type": "module",
   "dependencies": {
     "axios": "^1.7.7",
