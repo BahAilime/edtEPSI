@@ -1,6 +1,6 @@
 import { parseHTML } from './htmlParser/htmlParser.js';
 import { fetchHTML } from './api/api.js';
-import { parseDate } from './utils/utils.js';
+import { parseDate, getFirstDayOfWeek } from './utils/utils.js';
 import Yargs from "yargs";
 import dotenv from 'dotenv';
 import * as fs from 'fs';
@@ -8,8 +8,12 @@ import * as fs from 'fs';
 dotenv.config();
 
 const args = Yargs(process.argv.slice(2)).argv;
-
-const date = args.date ? parseDate(args.date) : new Date();
+let date = new Date();
+if (args.date) {
+    date = parseDate(args.date)
+} else if (args.week) {
+    date = getFirstDayOfWeek(args.year ?? date.getFullYear(), args.week);
+}
 
 let credentials =  {
     username: process.env.USERNAME_EPSI,
