@@ -3,17 +3,24 @@ import fs from 'fs';
 import path from 'path';
 import { fileURLToPath } from 'url';
 const __dirname = path.dirname(fileURLToPath(import.meta.url));
+import Yargs from "yargs";
+
+const args = Yargs(process.argv.slice(2)).argv;
+
+if (!args.group) {
+    throw new Error("Please specify a group");
+}
 
 async function main() {
     const cal = ical({
         timezone: 'Europe/Paris',
-        url: 'https://example.com',
+        url: '',
     });
 
-    const files = await fs.promises.readdir(path.join(__dirname, "../cached/B3DEVIA"));
+    const files = await fs.promises.readdir(path.join(__dirname, `../cached/${args.group}`));
 
     await Promise.all(files.map(async (file) => {
-        const { default: events } = await import(`../cached/B3DEVIA/${file}`, {
+        const { default: events } = await import(`../cached/${args.group}/${file}`, {
             with: {
                 type: "json",
             }
@@ -42,5 +49,5 @@ async function main() {
 };
 
 main().then((cal) => {
-    console.log(cal.toString());
+    fs.writeFileSync(path.join(__dirname, `./${args.group.toLowerCase()}.ics`), cal.toString());
 });
