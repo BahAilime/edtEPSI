@@ -1,0 +1,101 @@
+[
+  {
+    "title": "Atl model UML",
+    "prof": "Benjamin Vitis",
+    "group": "B3 Cours Commun",
+    "day": "30/09",
+    "start": "08:00",
+    "end": "12:00",
+    "location": "118"
+  },
+  {
+    "title": "Atl model UML",
+    "prof": "Benjamin Vitis",
+    "group": "B3 Cours Commun",
+    "day": "30/09",
+    "start": "13:00",
+    "end": "16:00",
+    "location": "218"
+  },
+  {
+    "title": "Méthodo Agile Devops",
+    "prof": "Mehdi Attar",
+    "group": "B3 Cours Commun",
+    "day": "01/10",
+    "start": "08:00",
+    "end": "12:00",
+    "location": "002"
+  },
+  {
+    "title": "Méthodo Agile Devops",
+    "prof": "Mehdi Attar",
+    "group": "B3 Cours Commun",
+    "day": "01/10",
+    "start": "13:00",
+    "end": "16:00",
+    "location": "104"
+  },
+  {
+    "title": "Election délégués",
+    "prof": "Claire Choron",
+    "group": "B3 Cours Commun",
+    "day": "01/10",
+    "start": "16:00",
+    "end": "17:00",
+    "location": "218"
+  },
+  {
+    "title": "Atl Pyth Frame IA",
+    "prof": "",
+    "group": "DS",
+    "day": "02/10",
+    "start": "08:00",
+    "end": "12:00",
+    "location": ""
+  },
+  {
+    "title": "Langage SQL et SGBD",
+    "prof": "Benjamin Vitis",
+    "group": "B3 Cours Commun",
+    "day": "02/10",
+    "start": "13:00",
+    "end": "17:00",
+    "location": "118"
+  },
+  {
+    "title": "Développement R",
+    "prof": "Joyce Mbiguidi",
+    "group": "DS",
+    "day": "03/10",
+    "start": "09:00",
+    "end": "12:00",
+    "location": "Distanciel 05"
+  },
+  {
+    "title": "Atl Pyth Frame IA",
+    "prof": "",
+    "group": "DS",
+    "day": "03/10",
+    "start": "13:00",
+    "end": "17:00",
+    "location": "303"
+  },
+  {
+    "title": "Méthodo Agile Devops",
+    "prof": "Mehdi Attar",
+    "group": "B3 Cours Commun",
+    "day": "04/10",
+    "start": "08:00",
+    "end": "12:00",
+    "location": "118"
+  },
+  {
+    "title": "Méthodo Agile Devops",
+    "prof": "Mehdi Attar",
+    "group": "B3 Cours Commun",
+    "day": "04/10",
+    "start": "13:00",
+    "end": "15:00",
+    "location": "218"
+  }
+]
