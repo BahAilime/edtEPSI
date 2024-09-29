@@ -11,3 +11,14 @@ export function parseDate(dateString) {
 
     return parsedDate;
 }
+
+export function getFirstDayOfWeek(year, week) {
+    const firstDayOfYear = new Date(year, 0, 1);
+    
+    const daysOffset = firstDayOfYear.getDay() <= 1 ? 1 - firstDayOfYear.getDay() : 8 - firstDayOfYear.getDay();
+    const firstMonday = new Date(firstDayOfYear.setDate(firstDayOfYear.getDate() + daysOffset));
+    
+    const firstDayOfWeek = new Date(firstMonday.setDate(firstMonday.getDate() + (week - 1) * 7));
+    
+    return firstDayOfWeek;
+}
