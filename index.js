@@ -24,7 +24,8 @@ if (args.username && args.password) {
 
 async function main() {
     const html = await fetchHTML(date, credentials);
-    console.log(await parseHTML(html));
+    const parsedHtml =await parseHTML(html)
+    console.log(JSON.stringify(parsedHtml, null, 2));
 }
 
 main();
