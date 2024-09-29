@@ -36,6 +36,8 @@ Vous pouvez exécuter le script avec Node.js et des arguments optionnels.
 ### Arguments (tous optionnels) :
 
 - `--date=[JJ/MM/AAAA]` : Jour dans la semaine pour lequel vous voulez obtenir l'emploi du temps. Si non fourni, la semaine actuelle est utilisée.
+- `--week` : Numéro de la semaine dont tu veux extraire l'emploi du temps (--date à la  priorité).
+- `--year` : (par defaut: année en cours) Si vous voulez récupérer une semaine qui n'est pas dans l'année en cours.
 - `--output` : Le chemin vers où vous voulez sauvgarder le JSON.
 - `--username` : Votre nom d'utilisateur EPSI (prenom.nom généralement).
 - `--password` : Votre mot de passe EPSI.
