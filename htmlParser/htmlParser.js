@@ -95,7 +95,7 @@ export async function parseHTML(html) {
             }
 
             // Extract prof and group
-            let professor = "";
+            let instructor = "";
             const groupHTML = event.querySelector('td.TCProf')
             let group = "";
             if (groupHTML) {
@@ -105,7 +105,7 @@ export async function parseHTML(html) {
                 let text = groupHTML.innerHTML;
                 let profAndGroup = text.split('<br>').map(text => text.trim());
 
-                professor = capitalizeName(profAndGroup[0].split(' ').reverse().join(' '));
+                instructor = capitalizeName(profAndGroup[0].split(' ').reverse().join(' '));
 
                 group = profAndGroup[1].split(' ')
                     .filter(word => !wordsToRemove.includes(word))
@@ -130,20 +130,12 @@ export async function parseHTML(html) {
             
                 
             return {
-                id: hashCode(title),         
                 title: title,
-                start: day[0],         // Start date and time (JavaScript Date object)
-                end: day[1],           // End date and time (JavaScript Date object)
+                start: day[0],
+                end: day[1],
                 location: location,
-                organizer: {
-                    name: professor,
-                },
-                attendees: [
-                    {
-                        name: group,
-                    },
-                ],
-                color: '#ffffff',          // Event color for display
+                instructor: instructor,
+                group: group,
             }
 
         }).filter(event => event.title !== "");

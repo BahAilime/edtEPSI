@@ -1,178 +1,90 @@
 [
   {
-    "id": -310561194,
     "title": "Atl model UML",
     "start": "2024-09-30T06:00:00.000Z",
     "end": "2024-09-30T10:00:00.000Z",
     "location": "118",
-    "organizer": {
-      "name": "Benjamin Vitis"
-    },
-    "attendees": [
-      {
-        "name": "B3 Cours Commun"
-      }
-    ],
-    "color": "#ffffff"
+    "instructor": "Benjamin Vitis",
+    "group": "B3 Cours Commun"
   },
   {
-    "id": -310561194,
     "title": "Atl model UML",
     "start": "2024-09-30T11:00:00.000Z",
     "end": "2024-09-30T14:00:00.000Z",
     "location": "218",
-    "organizer": {
-      "name": "Benjamin Vitis"
-    },
-    "attendees": [
-      {
-        "name": "B3 Cours Commun"
-      }
-    ],
-    "color": "#ffffff"
+    "instructor": "Benjamin Vitis",
+    "group": "B3 Cours Commun"
   },
   {
-    "id": 132672631,
     "title": "Méthodo Agile Devops",
     "start": "2024-10-01T06:00:00.000Z",
     "end": "2024-10-01T10:00:00.000Z",
     "location": "002",
-    "organizer": {
-      "name": "Mehdi Attar"
-    },
-    "attendees": [
-      {
-        "name": "B3 Cours Commun"
-      }
-    ],
-    "color": "#ffffff"
+    "instructor": "Mehdi Attar",
+    "group": "B3 Cours Commun"
   },
   {
-    "id": 132672631,
     "title": "Méthodo Agile Devops",
     "start": "2024-10-01T11:00:00.000Z",
     "end": "2024-10-01T14:00:00.000Z",
     "location": "104",
-    "organizer": {
-      "name": "Mehdi Attar"
-    },
-    "attendees": [
-      {
-        "name": "B3 Cours Commun"
-      }
-    ],
-    "color": "#ffffff"
+    "instructor": "Mehdi Attar",
+    "group": "B3 Cours Commun"
   },
   {
-    "id": 2096823009,
     "title": "Election délégués",
     "start": "2024-10-01T14:00:00.000Z",
     "end": "2024-10-01T15:00:00.000Z",
     "location": "218",
-    "organizer": {
-      "name": "Claire Choron"
-    },
-    "attendees": [
-      {
-        "name": "B3 Cours Commun"
-      }
-    ],
-    "color": "#ffffff"
+    "instructor": "Claire Choron",
+    "group": "B3 Cours Commun"
   },
   {
-    "id": -515957305,
     "title": "Atl Pyth Frame IA",
     "start": "2024-10-02T06:00:00.000Z",
     "end": "2024-10-02T10:00:00.000Z",
     "location": null,
-    "organizer": {
-      "name": ""
-    },
-    "attendees": [
-      {
-        "name": "DS"
-      }
-    ],
-    "color": "#ffffff"
+    "instructor": "",
+    "group": "DS"
   },
   {
-    "id": 693735558,
     "title": "Langage SQL et SGBD",
     "start": "2024-10-02T11:00:00.000Z",
     "end": "2024-10-02T15:00:00.000Z",
     "location": "118",
-    "organizer": {
-      "name": "Benjamin Vitis"
-    },
-    "attendees": [
-      {
-        "name": "B3 Cours Commun"
-      }
-    ],
-    "color": "#ffffff"
+    "instructor": "Benjamin Vitis",
+    "group": "B3 Cours Commun"
   },
   {
-    "id": 369113982,
     "title": "Développement R",
     "start": "2024-10-03T07:00:00.000Z",
     "end": "2024-10-03T10:00:00.000Z",
     "location": "Distanciel 05",
-    "organizer": {
-      "name": "Joyce Mbiguidi"
-    },
-    "attendees": [
-      {
-        "name": "DS"
-      }
-    ],
-    "color": "#ffffff"
+    "instructor": "Joyce Mbiguidi",
+    "group": "DS"
   },
   {
-    "id": -515957305,
     "title": "Atl Pyth Frame IA",
     "start": "2024-10-03T11:00:00.000Z",
     "end": "2024-10-03T15:00:00.000Z",
     "location": "303",
-    "organizer": {
-      "name": ""
-    },
-    "attendees": [
-      {
-        "name": "DS"
-      }
-    ],
-    "color": "#ffffff"
+    "instructor": "",
+    "group": "DS"
   },
   {
-    "id": 132672631,
     "title": "Méthodo Agile Devops",
     "start": "2024-10-04T06:00:00.000Z",
     "end": "2024-10-04T10:00:00.000Z",
     "location": "118",
-    "organizer": {
-      "name": "Mehdi Attar"
-    },
-    "attendees": [
-      {
-        "name": "B3 Cours Commun"
-      }
-    ],
-    "color": "#ffffff"
+    "instructor": "Mehdi Attar",
+    "group": "B3 Cours Commun"
   },
   {
-    "id": 132672631,
     "title": "Méthodo Agile Devops",
     "start": "2024-10-04T11:00:00.000Z",
     "end": "2024-10-04T13:00:00.000Z",
     "location": "218",
-    "organizer": {
-      "name": "Mehdi Attar"
-    },
-    "attendees": [
-      {
-        "name": "B3 Cours Commun"
-      }
-    ],
-    "color": "#ffffff"
+    "instructor": "Mehdi Attar",
+    "group": "B3 Cours Commun"
   }
 ]
