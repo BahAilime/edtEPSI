@@ -1,101 +1,178 @@
 [
   {
+    "id": -310561194,
     "title": "Atl model UML",
-    "prof": "Benjamin Vitis",
-    "group": "B3 Cours Commun",
-    "day": "30/09",
-    "start": "08:00",
-    "end": "12:00",
-    "location": "118"
+    "start": "2024-09-30T06:00:00.000Z",
+    "end": "2024-09-30T10:00:00.000Z",
+    "location": "118",
+    "organizer": {
+      "name": "Benjamin Vitis"
+    },
+    "attendees": [
+      {
+        "name": "B3 Cours Commun"
+      }
+    ],
+    "color": "#ffffff"
   },
   {
+    "id": -310561194,
     "title": "Atl model UML",
-    "prof": "Benjamin Vitis",
-    "group": "B3 Cours Commun",
-    "day": "30/09",
-    "start": "13:00",
-    "end": "16:00",
-    "location": "218"
+    "start": "2024-09-30T11:00:00.000Z",
+    "end": "2024-09-30T14:00:00.000Z",
+    "location": "218",
+    "organizer": {
+      "name": "Benjamin Vitis"
+    },
+    "attendees": [
+      {
+        "name": "B3 Cours Commun"
+      }
+    ],
+    "color": "#ffffff"
   },
   {
+    "id": 132672631,
     "title": "Méthodo Agile Devops",
-    "prof": "Mehdi Attar",
-    "group": "B3 Cours Commun",
-    "day": "01/10",
-    "start": "08:00",
-    "end": "12:00",
-    "location": "002"
+    "start": "2024-10-01T06:00:00.000Z",
+    "end": "2024-10-01T10:00:00.000Z",
+    "location": "002",
+    "organizer": {
+      "name": "Mehdi Attar"
+    },
+    "attendees": [
+      {
+        "name": "B3 Cours Commun"
+      }
+    ],
+    "color": "#ffffff"
   },
   {
+    "id": 132672631,
     "title": "Méthodo Agile Devops",
-    "prof": "Mehdi Attar",
-    "group": "B3 Cours Commun",
-    "day": "01/10",
-    "start": "13:00",
-    "end": "16:00",
-    "location": "104"
+    "start": "2024-10-01T11:00:00.000Z",
+    "end": "2024-10-01T14:00:00.000Z",
+    "location": "104",
+    "organizer": {
+      "name": "Mehdi Attar"
+    },
+    "attendees": [
+      {
+        "name": "B3 Cours Commun"
+      }
+    ],
+    "color": "#ffffff"
   },
   {
+    "id": 2096823009,
     "title": "Election délégués",
-    "prof": "Claire Choron",
-    "group": "B3 Cours Commun",
-    "day": "01/10",
-    "start": "16:00",
-    "end": "17:00",
-    "location": "218"
+    "start": "2024-10-01T14:00:00.000Z",
+    "end": "2024-10-01T15:00:00.000Z",
+    "location": "218",
+    "organizer": {
+      "name": "Claire Choron"
+    },
+    "attendees": [
+      {
+        "name": "B3 Cours Commun"
+      }
+    ],
+    "color": "#ffffff"
   },
   {
+    "id": -515957305,
     "title": "Atl Pyth Frame IA",
-    "prof": "",
-    "group": "DS",
-    "day": "02/10",
-    "start": "08:00",
-    "end": "12:00",
-    "location": ""
+    "start": "2024-10-02T06:00:00.000Z",
+    "end": "2024-10-02T10:00:00.000Z",
+    "location": null,
+    "organizer": {
+      "name": ""
+    },
+    "attendees": [
+      {
+        "name": "DS"
+      }
+    ],
+    "color": "#ffffff"
   },
   {
+    "id": 693735558,
     "title": "Langage SQL et SGBD",
-    "prof": "Benjamin Vitis",
-    "group": "B3 Cours Commun",
-    "day": "02/10",
-    "start": "13:00",
-    "end": "17:00",
-    "location": "118"
+    "start": "2024-10-02T11:00:00.000Z",
+    "end": "2024-10-02T15:00:00.000Z",
+    "location": "118",
+    "organizer": {
+      "name": "Benjamin Vitis"
+    },
+    "attendees": [
+      {
+        "name": "B3 Cours Commun"
+      }
+    ],
+    "color": "#ffffff"
   },
   {
+    "id": 369113982,
     "title": "Développement R",
-    "prof": "Joyce Mbiguidi",
-    "group": "DS",
-    "day": "03/10",
-    "start": "09:00",
-    "end": "12:00",
-    "location": "Distanciel 05"
+    "start": "2024-10-03T07:00:00.000Z",
+    "end": "2024-10-03T10:00:00.000Z",
+    "location": "Distanciel 05",
+    "organizer": {
+      "name": "Joyce Mbiguidi"
+    },
+    "attendees": [
+      {
+        "name": "DS"
+      }
+    ],
+    "color": "#ffffff"
   },
   {
+    "id": -515957305,
     "title": "Atl Pyth Frame IA",
-    "prof": "",
-    "group": "DS",
-    "day": "03/10",
-    "start": "13:00",
-    "end": "17:00",
-    "location": "303"
+    "start": "2024-10-03T11:00:00.000Z",
+    "end": "2024-10-03T15:00:00.000Z",
+    "location": "303",
+    "organizer": {
+      "name": ""
+    },
+    "attendees": [
+      {
+        "name": "DS"
+      }
+    ],
+    "color": "#ffffff"
   },
   {
+    "id": 132672631,
     "title": "Méthodo Agile Devops",
-    "prof": "Mehdi Attar",
-    "group": "B3 Cours Commun",
-    "day": "04/10",
-    "start": "08:00",
-    "end": "12:00",
-    "location": "118"
+    "start": "2024-10-04T06:00:00.000Z",
+    "end": "2024-10-04T10:00:00.000Z",
+    "location": "118",
+    "organizer": {
+      "name": "Mehdi Attar"
+    },
+    "attendees": [
+      {
+        "name": "B3 Cours Commun"
+      }
+    ],
+    "color": "#ffffff"
   },
   {
+    "id": 132672631,
     "title": "Méthodo Agile Devops",
-    "prof": "Mehdi Attar",
-    "group": "B3 Cours Commun",
-    "day": "04/10",
-    "start": "13:00",
-    "end": "15:00",
-    "location": "218"
+    "start": "2024-10-04T11:00:00.000Z",
+    "end": "2024-10-04T13:00:00.000Z",
+    "location": "218",
+    "organizer": {
+      "name": "Mehdi Attar"
+    },
+    "attendees": [
+      {
+        "name": "B3 Cours Commun"
+      }
+    ],
+    "color": "#ffffff"
   }
 ]
