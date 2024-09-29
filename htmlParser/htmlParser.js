@@ -57,6 +57,12 @@ export async function parseHTML(html) {
     try {
         const dataPageDocument = new JSDOM(html).window.document;
 
+        if (html.search("Pas de cours cette semaine")) {
+            return {
+                error: "Pas de cours cette semaine"
+            }
+        }
+
         const caseElements = dataPageDocument.querySelectorAll('.Case');
         const dateElements = dataPageDocument.querySelectorAll('.TCJour');
         const dates = Array.from(dateElements).map(element => element.textContent).slice(5, 10);
