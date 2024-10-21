@@ -1,0 +1,74 @@
+[
+  {
+    "title": "No SQL",
+    "start": "2024-10-21T06:00:00.000Z",
+    "end": "2024-10-21T10:00:00.000Z",
+    "location": "218",
+    "instructor": "Daniel Vermonden",
+    "group": "B3 Cours Commun"
+  },
+  {
+    "title": "Langage SQL et SGBD",
+    "start": "2024-10-22T06:00:00.000Z",
+    "end": "2024-10-22T10:00:00.000Z",
+    "location": null,
+    "instructor": "Anne-lise Gerard",
+    "group": "B3 Cours Commun"
+  },
+  {
+    "title": "Projet Innov Minds",
+    "start": "2024-10-22T11:00:00.000Z",
+    "end": "2024-10-22T15:00:00.000Z",
+    "location": null,
+    "instructor": "Anne-lise Gerard",
+    "group": "B3 Cours Commun"
+  },
+  {
+    "title": "D├®veloppement R",
+    "start": "2024-10-23T06:00:00.000Z",
+    "end": "2024-10-23T10:00:00.000Z",
+    "location": "Distanciel 01",
+    "instructor": "Joyce Mbiguidi",
+    "group": "DS"
+  },
+  {
+    "title": "Langage SQL et SGBD",
+    "start": "2024-10-23T11:00:00.000Z",
+    "end": "2024-10-23T14:00:00.000Z",
+    "location": null,
+    "instructor": "Benjamin Vitis",
+    "group": "B3 Cours Commun"
+  },
+  {
+    "title": "Langage SQL et SGBD",
+    "start": "2024-10-24T07:00:00.000Z",
+    "end": "2024-10-24T10:00:00.000Z",
+    "location": "Distanciel 02",
+    "instructor": "Claire Choron",
+    "group": "B3 Cours Commun"
+  },
+  {
+    "title": "Langage SQL et SGBD",
+    "start": "2024-10-24T11:00:00.000Z",
+    "end": "2024-10-24T14:00:00.000Z",
+    "location": "Distanciel 02",
+    "instructor": "Claire Choron",
+    "group": "B3 Cours Commun"
+  },
+  {
+    "title": "Dossier Veille",
+    "start": "2024-10-25T08:00:00.000Z",
+    "end": "2024-10-25T10:00:00.000Z",
+    "location": "113",
+    "instructor": "Christophe Gillereau",
+    "group": "B3 Cours Commun"
+  },
+  {
+    "title": "No SQL",
+    "start": "2024-10-25T11:00:00.000Z",
+    "end": "2024-10-25T15:00:00.000Z",
+    "location": "213",
+    "instructor": "Daniel Vermonden",
+    "group": "B3 Cours Commun"
+  }
+]
