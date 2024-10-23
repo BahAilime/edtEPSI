@@ -41,7 +41,7 @@ function extractLocation(locationString) {
     }
 
     let distancielMatch = locationString.match(/Salle:SALLE_(\d+)\((DISTANCIEL)\)/i);
-    let physicalRoomMatch = locationString.match(/Salle:N(\d+)\((HEP Nantes)\)/i);
+    let physicalRoomMatch = locationString.match(/Salle:(.*)\((HEP Nantes)\)/i);
 
     if (distancielMatch) {
         let roomNumber = distancielMatch[1];
