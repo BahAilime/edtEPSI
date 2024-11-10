@@ -1,0 +1,82 @@
+[
+  {
+    "title": "Atl Pyth Frame IA",
+    "start": "2024-11-12T07:00:00.000Z",
+    "end": "2024-11-12T11:00:00.000Z",
+    "location": "N112",
+    "instructor": "Florian Pothin",
+    "group": "DS"
+  },
+  {
+    "title": "Développement R",
+    "start": "2024-11-12T12:00:00.000Z",
+    "end": "2024-11-12T15:00:00.000Z",
+    "location": "Distanciel 02",
+    "instructor": "Joyce Mbiguidi",
+    "group": "DS"
+  },
+  {
+    "title": "Atelier Scrum",
+    "start": "2024-11-13T07:00:00.000Z",
+    "end": "2024-11-13T11:00:00.000Z",
+    "location": "N213",
+    "instructor": "Mehdi Attar",
+    "group": "B3 Cours Commun"
+  },
+  {
+    "title": "Atelier Scrum",
+    "start": "2024-11-13T12:00:00.000Z",
+    "end": "2024-11-13T15:00:00.000Z",
+    "location": "N002",
+    "instructor": "Mehdi Attar",
+    "group": "B3 Cours Commun"
+  },
+  {
+    "title": "Vie de classe",
+    "start": "2024-11-13T15:00:00.000Z",
+    "end": "2024-11-13T16:00:00.000Z",
+    "location": "N113",
+    "instructor": "Claire Choron",
+    "group": "B3 Cours Commun"
+  },
+  {
+    "title": "No SQL",
+    "start": "2024-11-14T08:00:00.000Z",
+    "end": "2024-11-14T11:00:00.000Z",
+    "location": "N218",
+    "instructor": "Daniel Vermonden",
+    "group": "B3 Cours Commun"
+  },
+  {
+    "title": "No SQL",
+    "start": "2024-11-14T12:00:00.000Z",
+    "end": "2024-11-14T14:00:00.000Z",
+    "location": "N325",
+    "instructor": "Daniel Vermonden",
+    "group": "B3 Cours Commun"
+  },
+  {
+    "title": "Développement Python",
+    "start": "2024-11-14T14:00:00.000Z",
+    "end": "2024-11-14T17:00:00.000Z",
+    "location": "N112",
+    "instructor": "Alain Cariou",
+    "group": "B3 Cours Commun"
+  },
+  {
+    "title": "Développement Python",
+    "start": "2024-11-15T07:00:00.000Z",
+    "end": "2024-11-15T11:00:00.000Z",
+    "location": "N118",
+    "instructor": "Alain Cariou",
+    "group": "B3 Cours Commun"
+  },
+  {
+    "title": "Développement R",
+    "start": "2024-11-15T12:00:00.000Z",
+    "end": "2024-11-15T16:00:00.000Z",
+    "location": "Distanciel 02",
+    "instructor": "Joyce Mbiguidi",
+    "group": "DS"
+  }
+]
